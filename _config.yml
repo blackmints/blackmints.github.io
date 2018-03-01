@@ -9,10 +9,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
-title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
+title                    : "Blackmints"
+title_separator          : "|"
+name                     : "Hyeoncheol Cho"
+description              : "Ph.D. Student in KAIST, Dept. Chem."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -90,10 +90,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Hyeoncheol Cho"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  bio              : "Ph.D. Student in KAIST, Dept. Chem."
+  location         : "Daejeon, Korea"
   email            :
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
