@@ -4,3 +4,12 @@ main:
     url: /about/
   - title: "Blog"
     url: /blog/
+
+blog:
+  - title: "All"
+    url: /blog/
+  - title: "Category"
+    url: /blog/categories/
+
+  - title: "Tags"
+    url: /blog/tags/
