@@ -173,6 +173,7 @@
 
     .page__title {
       font-size: $type-size-2;
+      text-align: center;
 
       @include breakpoint($small) {
         font-size: $type-size-1;
@@ -251,9 +252,10 @@
   color: $muted-text-color;
   font-family: $sans-serif;
   font-size: $type-size-6;
+  text-align: center;
 
   p {
-    margin: 0;
+    // margin: 0;
   }
 
   a {
@@ -272,6 +274,7 @@
    ========================================================================== */
 
 .page__taxonomy {
+  margin-top: 0;
   margin-bottom: 0.5em;
 
   .sep {
@@ -289,7 +292,7 @@
 
 .page__taxonomy-item {
   display: inline-block;
-  margin: 3px 4px 3px 0px;
+  margin: 3px 2px;
   padding: 0px 8px;
   text-decoration: none;
   border-radius: $border-radius;
@@ -309,7 +312,7 @@
 
 .page__date {
   text-transform: uppercase;
-  
+
   strong {
     margin-right: 10px;
   }
