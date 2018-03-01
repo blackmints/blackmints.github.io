@@ -6,14 +6,12 @@ sidebar:
 ---
 
 {% capture written_year_month %}'None'{% endcapture %}
-{% for category in group_names %}
-  {% assign posts = group_items[forloop.index0] %}
-  {% for post in posts %}
-    {% capture year_month %}{{ post.date | date: '%Y.%m' }}{% endcapture %}
-    {% if year_month != written_year_month %}
-      <h2 id="{{ year_month | slugify }}" class="archive__subtitle">{{ year_month }}</h2>
-      {% capture written_year_month %}{{ year_month }}{% endcapture %}
-    {% endif %}
-    {% include archive-single.html%}
-  {% endfor %}
+
+{% for post in posts %}
+  {% capture year_month %}{{ post.date | date: '%Y.%m' }}{% endcapture %}
+  {% if year_month != written_year_month %}
+    <h2 id="{{ year_month | slugify }}" class="archive__subtitle">{{ year_month }}</h2>
+    {% capture written_year_month %}{{ year_month }}{% endcapture %}
+  {% endif %}
+  {% include archive-single.html%}
 {% endfor %}

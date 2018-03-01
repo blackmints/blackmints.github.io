@@ -8,13 +8,7 @@ main:
 blog:
   - title: "All"
     url: /blog/
-  - title: "Category"
-    children:
-      - title: "Deep Learning"
-        url: /blog/deep/
-      - title: "Chemistry"
-        url: /blog/chem/
+  - title: "Categories"
     url: /blog/categories/
-
   - title: "Tags"
     url: /blog/tags/
