@@ -246,16 +246,6 @@ compress_html:
     envs: development
 
 
-# Collections
-collections:
-  deeps:
-    output: true
-    permalink: /:collection/:path/
-  chems:
-    output: true
-    permalink: /:collection/:path/
-
-
 # Defaults
 defaults:
   # _posts
@@ -277,23 +267,3 @@ defaults:
     values:
       layout: single
       author_profile: true
-
-  # _deeps
-  - scope:
-      path: ""
-      type: deeps
-    values:
-      layout: single
-      author_profile: true
-    sidebar:
-        nav: "blog"
-
-  # _chems
-  - scope:
-      path: ""
-      type: chems
-    values:
-      layout: single
-      author_profile: true
-    sidebar:
-        nav: "blog"
