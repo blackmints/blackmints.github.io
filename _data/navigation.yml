@@ -9,6 +9,11 @@ blog:
   - title: "All"
     url: /blog/
   - title: "Category"
+    children:
+      - title: "Deep Learning"
+        url: /blog/deep/
+      - title: "Chemistry"
+        url: /blog/chem/
     url: /blog/categories/
 
   - title: "Tags"
