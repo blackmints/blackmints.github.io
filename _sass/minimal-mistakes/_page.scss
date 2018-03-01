@@ -282,12 +282,15 @@
 
 .page__taxonomy-item {
   display: inline-block;
-  margin-right: 5px;
-  margin-bottom: 8px;
-  padding: 5px 10px;
+  margin: 3px 1px;
+  padding: 2px 8px;
   text-decoration: none;
-  border: 1px solid mix(#000, $border-color, 25%);
+  // border: 1px solid mix(#000, $border-color, 25%);
   border-radius: $border-radius;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: #ededed;
+  color: #666;
 
   &:hover {
     text-decoration: none;
