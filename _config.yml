@@ -16,7 +16,7 @@ description              : "Ph.D. Student in Dept. Chem. KAIST"
 url                      : "https://blackmints.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "blackmints/blackmints.github.io"
-teaser                   : "/assets/images/bio-photo.jpg"
+teaser                   : "/assets/images/bio-photo.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -91,7 +91,7 @@ analytics:
 # Site Author
 author:
   name             : "Hyeoncheol Cho"
-  avatar           : "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio-photo.png"
   bio              : "Ph.D. Student in KAIST, Dept. Chem."
   location         : "Daejeon, Korea"
   email            : "harry0305@kaist.ac.kr"
@@ -257,5 +257,13 @@ defaults:
       author_profile: true
       read_time: true
       comments: # true
-      share: true
+      share: # true
       related: true
+
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true

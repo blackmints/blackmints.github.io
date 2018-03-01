@@ -1,13 +1,7 @@
 ---
 title: AWS VPC 설정하기
-categories:
-  - AWS
 tags:
   - AWS
-  - Network
-  - VPC
-  - Routing Table
-  - Internet Gateway
 ---
 
  AWS 클라우드 환경에 서버를 생성하고 싶을 때, 아무 설정 없이 인스턴스만 툭 하고 생성할 수도 있다. 이 경우 AWS 에서 Default로 제공하는 VPC 네트워크 환경에 인스턴스가 올라가게 된다.
