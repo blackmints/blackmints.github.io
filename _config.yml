@@ -280,7 +280,7 @@ defaults:
 
   # _deeps
   - scope:
-      path: ""
+      path: "/deep/"
       type: deeps
     values:
       layout: single
@@ -290,7 +290,7 @@ defaults:
 
   # _chems
   - scope:
-      path: ""
+      path: "/chem/"
       type: chems
     values:
       layout: single
