@@ -12,7 +12,7 @@ locale                   : "ko_KR"
 title                    : "Blackmints"
 title_separator          : "|"
 name                     : "Hyeoncheol Cho"
-description              : "Ph.D. Student in KAIST, Dept. Chem."
+description              : "Ph.D. Student in Dept. Chem. KAIST"
 url                      : "https://blackmints.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "blackmints/blackmints.github.io"
@@ -259,3 +259,5 @@ defaults:
       comments: # true
       share: true
       related: true
+      sidebar:
+        nav: "blog"

@@ -10,3 +10,17 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+blog:
+  - title: About Me
+    children:
+      - title: "Resume"
+        url: /bio/resume/
+
+  - title: Blog
+    children:
+      - title: "Research"
+        url: /blog/research/
+      - title: "Extra"
+        url: /blog/extra/
+      - title: "Extra"
