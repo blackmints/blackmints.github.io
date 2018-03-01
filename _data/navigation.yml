@@ -4,11 +4,3 @@ main:
     url: /about/
   - title: "Blog"
     url: /blog/
-
-# blog:
-#   - title: "All"
-#     url: /blog/
-#   - title: "Categories"
-#     url: /blog/categories/
-#   - title: "Tags"
-#     url: /blog/tags/
