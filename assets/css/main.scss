@@ -21,3 +21,7 @@ html {
         font-size: 18px; // originally 22px
     }
 }
+
+a:-webkit-any-link {
+    text-decoration: none;
+}
