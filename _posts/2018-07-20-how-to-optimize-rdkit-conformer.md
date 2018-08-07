@@ -28,13 +28,14 @@ mol = Chem.MolFromSmiles(smi)
 mol = Chem.AddHs(mol)  # Energy 계산을 위해선 H가 포함된 것이 더 정확하다
 ~~~
 
-## Conformer optimize
+## 구조 최적화
 RDKit은 크게 세 가지 방법을 제공한다.
 * ETKDG [Landrum et al. 2015](https://doi.org/10.1021/acs.jcim.5b00654){:target="_blank"}
 * UFF(Universal Force Field) [Rappe et al. 1992](https://doi.org/10.1021/ja00051a040){:target="_blank"}
 * MMFF(Merck Molecular Force Field) [Halgren et al. 1996](https://doi.org/10.1002/(SICI)1096-987X(199604)17:5/6%3C490::AID-JCC1%3E3.0.CO;2-P){:target="_blank"}
 
-이중 UFF와 MMFF는 메소드 이름만 다르고 방법은 똑같다. ETKDG가 가장 속도가 빠르며 UFF랑 MMFF는 비슷. ETKDG 논문을 참조.
+이중 UFF와 MMFF는 메소드 이름만 다르고 방법은 똑같다. ETKDG가 가장 속도가 빠르며 UFF랑 MMFF는 비슷.
+ETKDG 논문을 참조하면 좀 더 자세한 비교 설명이 있다.
 
 ~~~
 # ETKDG Method
