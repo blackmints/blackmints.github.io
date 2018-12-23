@@ -1,6 +1,6 @@
 ---
 permalink: /about/
-title: "Hyeoncheol Cho"
+title: "About"
 ---
 
 ## Education
