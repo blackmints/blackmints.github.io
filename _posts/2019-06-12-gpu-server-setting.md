@@ -126,17 +126,6 @@ $ poetry —version
 $ poetry completions bash > /etc/bash_completion.d/poetry.bash-completion
 ```
 
-새 프로젝트를 생성하고 패키지들을 깔자.
-```bash
-$ poetry new tf1.13.1
-# add packages
-$ poetry add tensorflow-gpu=1.13.1 keras matplotlib rdkit
-$ poetry lock
-$ poetry show
-# install all packages and dependencies in pyproject.toml
-$ poetry install --no-dev
-```
-
 ## 9. Docker 설치
 Docker를 사용하면 드라이버만 깔고 CUDA 등을 설치할 필요가 없다.
 ```bash
@@ -161,7 +150,6 @@ $ docker run --runtime=nvidia --rm nvidia/cuda:9.0-base nvidia-smi
 $ docker login
 $ docker pull tensorflow/tensorflow:latest-gpu-py3
 $ docker images
-$ nvidia-docker run -it -p 6006:6006 --name tf1.13.1 \
-  -v /home/catnip/projects:/projects -e PASSWORD="0000" \
+$ docker run --runtime=nvidia -it -p 6006:6006 --name tf1.13.1 \
   tensorflow:latest-gpu-py3
 ```
