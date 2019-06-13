@@ -8,6 +8,8 @@ tags:
 ### Docker image for deep learning chemistry
 As RDKit does not provide pip repository for installation on virtualenv, I planned to use docker image for environment setting for my project. By building rdkit from the source inside docker, rdkit packages are obtained and transferred to working docker image. Only solution other than docker is to use conda environment, as I know.
 
+Dockerhub: https://hub.docker.com/r/harry0305/tensorflow-rdkit
+
 ### Core intentions
 - Latest tensorflow-gpu (=1.13.1)
 - Latest rdkit (=2019.03.2)
